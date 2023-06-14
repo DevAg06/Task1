@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="calc.js"></script>
+    </head>
+    <body> 
+    <table border="0" bordercolor="black" align="center" bgcolor="black">
+        <tr>
+            <td colspan="4"><textarea id="t1" disabled class="resultbox" placeholder="0" ></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3"><button type="button"class="apllogo"><a href="https://www.apple.com/in/" target="_blank">
+                <img src="apllogo.jpg" height="50px" width="60px">
+            </a>
+            </button>
+            <th><button type="button" onclick="display('/')" class="opbutton">/</button>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="display('7')" class="button">7</button>
+            <th><button type="button" onclick="display('8')" class="button">8</button>
+            <th><button type="button" onclick="display('9')" class="button">9</button>
+            <th><button type="button" onclick="display('*')" class="opbutton">x</button>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="display('4')" class="button">4</button>
+            <th><button type="button" onclick="display('5')" class="button">5</button>
+            <th><button type="button" onclick="display('6')" class="button">6</button>
+            <th><button type="button" onclick="display('-')"  class="opbutton">-</button>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="display('1')" class="button">1</button>
+            <th><button type="button" onclick="display('2')" class="button">2</button>
+            <th><button type="button" onclick="display('3')" class="button">3</button>
+            <th><button type="button" onclick="display('+')"  class="opbutton">+</button>
+        </tr>
+        <tr>
+            <th colspan="2" ><button type="button" onclick="display('0')" class="zerobutton" >0</button>
+            <th><button type="button" onclick="display('.')" class="button">.</button>
+            <th><button type="button" onclick="result('=')"  class="opbutton">=</button>
+        </tr>
+        </table>
+        </form>
+        </body>
+        </html>

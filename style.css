@@ -1,0 +1,68 @@
+body{
+  background-color:#ebe9e7;
+}
+.button{
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 15px 25px;
+  text-align: center;
+}
+.resultbox{
+  color: rgb(229, 236, 236);
+  border: none;
+  outline: none;
+  background-color: black;
+  width: 400px;
+  height: 150px;
+  font-size: 75;
+  text-align: right;
+  resize: none;
+}
+
+table {
+  background: black;
+  border-radius: 2rem;
+  color: white;
+  height: 700px;
+  padding: 1;
+  position: relative;
+  width: 400px;
+}
+.zerobutton
+{
+  border-top-right-radius:2rem;
+  border-top-left-radius:2rem;
+  border-bottom-right-radius:2rem;
+  border-bottom-left-radius:2rem;
+  font-size: 30px;
+  padding: 15px 70px;
+  text-align: center;
+}
+.opbutton
+{
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 15px 25px;
+  text-align: center;
+  background-color: #faa825;
+}
+.topbutton
+{
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 15px 25px;
+  text-align: center;
+  background-color: #b4b3b2;
+}
+.apllogo
+{
+  border-top-right-radius:2rem;
+  border-top-left-radius:2rem;
+  border-bottom-right-radius:2rem;
+  border-bottom-left-radius:2rem;
+  font-size: 30px;
+  padding: 8px 100px;
+  text-align: center;
+  background-color: black;
+  
+}
